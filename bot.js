@@ -16,7 +16,7 @@ var channel = "509163390745313281";
 
 
 client.on('message', message => {
-    if(message.content.startsWith('!say')) {
+    if(message.content.startsWith('!say16')) {
     if(message.author.id !== "408374252291751976") return;
     var args = message.content.split(' ').slice(1).join(' ');
     message.channel.send(args);
