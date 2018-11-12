@@ -395,7 +395,7 @@ client.on('message',async msg => {
 Year = currentTime.getFullYear(),
 Month = currentTime.getMonth() + 1,
 Dat = currentTime.getDate()
-      time.setName(`FireShop :  → ${client.users.size} ← `);
+      time.setName(`FireShop :  → ${message.guild.memberCount} ← `);
  },1000);
   });
   }
