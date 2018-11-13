@@ -686,7 +686,7 @@ client.on('ready', () => {
     console.log(`in ${client.guilds.size} servers `)
     console.log(`[Codes] ${client.users.size}`)
 });
-const prefix = "1"
+const prefix = f!"
 client.on('message', async msg => {
     if (msg.author.bot) return undefined;
     if (!msg.content.startsWith(prefix)) return undefined;
