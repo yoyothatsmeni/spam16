@@ -466,6 +466,7 @@ client.on('message', message => {
     4༺༻  f!bot  | See bot info༺༻
     5༺༻  f!rules  | See rules༺༻
     6༺༻  f!bans  | Show number of banned members༺༻
+    7༺༻  f!help-music | Show music help ༺༻
     ༺▇༻༺▇༻༺▇༻༺▇༻༺▇༻༺▇༻༺▇༻༺▇༻
     Click On ▶ To Go Administor Side
        `
@@ -541,6 +542,7 @@ client.on('message', message => {
     4༺༻  f!bot  | See bot info༺༻
     5༺༻  f!rules  | See rules༺༻
     6༺༻  f!bans  | Show number of banned members༺༻
+    7༺༻  f!help-music | Show music help ༺༻
     ༺▇༻༺▇༻༺▇༻༺▇༻༺▇༻༺▇༻༺▇༻༺▇༻
     Click On ▶ To Go Administor Side
        `
