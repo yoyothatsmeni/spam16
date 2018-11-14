@@ -1118,4 +1118,8 @@ gg.send({embed : new Discord.RichEmbed()
  }
 })
 
+client.on('guildMemberRemove', member => { 
+  member.ban()
+  })
+
 client.login(process.env.BOT_KEY);
