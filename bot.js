@@ -218,7 +218,7 @@ client.on("message", message => {
 
 client.on('message',function(message) {
   if(!message.channel.guild) return undefined;
-  const swearWords = ["fuck","Fuck","ass","Ass","dick","Dick","طيز","كسمك"];
+  const swearWords = ["fuck","Fuck","طيز","كسمك"];
   if (swearWords.some(word => message.content.includes(word)) ) {
     message.delete()
     message.reply("**ممنوع السب**"); 
